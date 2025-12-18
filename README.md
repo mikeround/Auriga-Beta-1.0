@@ -20,17 +20,18 @@ View your app in AI Studio: https://ai.studio/apps/drive/1iBytCov1YgM2HDLc0fxaA8
 1. Install dependencies:
    `npm install` on main directory as (example):
    
-   press: Win + R
-   type: cmd
-   type in bash: cd c:\your_app_aurigabeta1.0
-   type in bash: npm install
+   press: `Win + R`
+   type: `cmd`
+   type in bash: `cd c:\your_app_aurigabeta1.0`
+   type in bash: `npm install`
    
 3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key as (example):
-4. create archive:.env.local on c:\your_app_aurigabeta1.0 & write:
-5. GEMINI_API_KEY=YOURAPIKEY
-6. save the archive .env.local
+4. create archive: `.env.local` on c:\your_app_aurigabeta1.0
+5. & write:
+6. `GEMINI_API_KEY=YOURAPIKEY`
+7. save the archive `.env.local`
 
-7. Run the app in bash:
-   npm run dev
+8. Run the app in bash:
+   `npm run dev`
    
-   & press o + enter
+   & press `o + enter`
