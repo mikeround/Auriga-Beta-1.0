@@ -23,4 +23,4 @@ View your app in AI Studio: https://ai.studio/apps/drive/1iBytCov1YgM2HDLc0fxaA8
 3. GEMINI_API_KEY=YOURAPIKEY
 4. Run the app:
    `npm run dev`
-   press o + enter
+   & press o + enter
