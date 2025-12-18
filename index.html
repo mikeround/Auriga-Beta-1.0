@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronos Forensic Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"Roboto Mono"', 'monospace'],
+              sans: ['"Inter"', 'sans-serif'],
+            },
+            colors: {
+              corp: {
+                bg: '#f8fafc',      // Slate 50
+                panel: '#ffffff',   // White
+                text: '#1e293b',    // Slate 800
+                subtext: '#64748b', // Slate 500
+                border: '#e2e8f0',  // Slate 200
+                primary: '#2563eb', // Blue 600
+                secondary: '#475569', // Slate 600
+                accent: '#0ea5e9',  // Sky 500
+                danger: '#ef4444',  // Red 500
+                success: '#22c55e', // Green 500
+                warning: '#eab308', // Yellow 500
+              }
+            },
+            boxShadow: {
+              'soft': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+              'panel': '0 0 15px rgba(0,0,0,0.05)',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Clean Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "jspdf-autotable": "https://esm.sh/jspdf-autotable@3.8.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-corp-bg text-corp-text font-sans antialiased overflow-hidden selection:bg-corp-primary selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "MVP Chronos Analyzer 1.0 Beta / Project: Auriga",
+  "description": "Transforms images into antique technical blueprints with detailed millimeter-precision AI analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
